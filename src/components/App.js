@@ -1,6 +1,8 @@
 
 import './App.css';
 import Genres from './genres';
+import Contact from './contact';
+import Plot from './plot';
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
         <p>Search by <a href='#genres'>Genre</a> instead</p>
       </header>
       <Genres />
+      <Contact />
+      <Plot />
     </div>
   );
 }
